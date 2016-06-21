@@ -2,16 +2,16 @@
 ==
 杨奕波
 ========
-###*实验结果及分析
+###* 实验结果及分析
 ###*Project2_1拓扑结构图<br>
 ![](https://github.com/yybEric/ns3-lec-project/blob/master/pic2/top1.png)<br>
-###*Project2_1运行代码终端图<br>
+###* Project2_1运行代码终端图<br>
 ![](https://github.com/yybEric/ns3-lec-project/blob/master/pic2/jieguo1.png)<br>
 ###*Project2_2拓扑结构图<br>
 ![](https://github.com/yybEric/ns3-lec-project/blob/master/pic2/top2.png)<br>
-###*Project2_2运行代码终端图<br>
+###* Project2_2运行代码终端图<br>
 ![](https://github.com/yybEric/ns3-lec-project/blob/master/pic2/jieguo2.png)<br>
-###*Project2_1中STA移动模型配置代码<br>
+###* Project2_1中STA移动模型配置代码<br>
 ```cpp
 //配置wifi移动模型，线性匀速度移动。
   MobilityHelper mobility;
@@ -27,7 +27,7 @@
                              "Bounds", StringValue ("0|200|0|200"));
   mobility.Install (wifiStaNodes);
 ```
-###*Project2_2中STA移动模型配置代码，另一种配置线性匀速度移动模型<br>
+###* Project2_2中STA移动模型配置代码，另一种配置线性匀速度移动模型<br>
 ```cpp
   //配置移动模型，起始位置
   MobilityHelper mobility;
