@@ -12,7 +12,7 @@ LogComponentEnable（“...”，LOG_LEVEL_...）;
 ```cpp
 $ export NS_LOG=UdpEchoClientApplication=level_all
 ```
-![https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_1.png]()<br>
+![](https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_1.png)<br>
 ### * Tracing系统<br>
 * ASCII
 ```cp
@@ -24,21 +24,21 @@ pointToPoint.EnalbeAsciiAll (ascii.CreateFileStream("first.tr"));    //包含两
 pointToPoint.EnalbePcapAllll ("first");
 ```
 
-![https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_2.png]()<br>
+![](https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_2.png)<br>
 ### * PyViz系统<br>
 NS3中的仿真可视化工具，调用如下命令行：
 ./waf –-run project3_2 --vis<br>
 
-![https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_3.png]()<br>
+![](https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_3.png)<br>
 
 ### * Wireshark工具使用<br>
 如果使用Wireshark工具打开由Tracing系统记录的pcap文件，可以看到：
 
-![https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_4.png]()<br>
+![](https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_4.png)<br>
 ### * Matlab数据处理<br>
 用Matlab计算发送与接收时间差：
 
-![https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_6.jpg]()<br>
+![](https://github.com/yybEric/ns3-lec-project/blob/master/pic3/p3_6.jpg)<br>
 ### * Wireshark安装步骤<br>
 ```cpp
 $sudo apt-get update
