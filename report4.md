@@ -21,11 +21,11 @@
 ```cpp
 YansWifiChannelHelper channel = YansWifiChannelHelper::Default ();
 channel.SetPropagationDelay("ns3::ConstantSpeedPropagationDelayModel");
-```cpp
+```
 ###  Mac类型设置<br>
 ```cpp
 NqosWifiMacHelper mac = NqosWifiMacHelper::Default ();
-```cpp
+```
 ### 移动模型设置<br>
 ```cpp
   Ptr<ListPositionAllocator> positionAlloc_2 = CreateObject<ListPositionAllocator> ();
